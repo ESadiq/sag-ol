@@ -1,0 +1,89 @@
+#footer {
+    background-color: #555555;
+    color: #fff;
+    padding: 20px 0; /* Added padding for better spacing */
+}
+
+#footer img {
+    width: 100%;
+    max-width: 150px; /* Limit logo size on smaller screens */
+}
+
+.nav-item a {
+    color: #fff !important;
+    font-size: 0.9rem; /* Slightly reduced font size for better readability on small screens */
+}
+
+#footer a svg {
+    color: white;
+    font-size: 20px; /* Adjusted icon size for better balance */
+}
+
+/* Media Queries for Tablets and Smartphones */
+@media (max-width: 480px) {
+    #footer .container {
+        padding: 0 15px; /* Reduced padding for smaller screens */
+    }
+
+    #footer .row {
+        flex-direction: column; /* Stack elements vertically on smaller screens */
+        text-align: center; /* Center-align content */
+    }
+
+    #footer .col-6,
+    #footer .col-md-2,
+    #footer .col-md-4 {
+        width: 100%; /* Make columns full-width on small screens */
+        margin-bottom: 20px; /* Add spacing between sections */
+    }
+
+    #footer img {
+        max-width: 120px; /* Further reduce logo size on smaller screens */
+        margin: 0 auto; /* Center the logo */
+    }
+
+    #footer ul {
+        padding: 0; /* Remove default padding */
+        margin: 0 auto; /* Center the lists */
+        text-align: center; /* Center-align text */
+    }
+
+    #footer ul li {
+        margin-bottom: 10px; /* Add spacing between list items */
+    }
+
+    .d-flex.flex-column.flex-sm-row.justify-content-between {
+        flex-direction: column; /* Stack copyright and social icons vertically */
+        align-items: center; /* Center-align content */
+    }
+
+    .d-flex.flex-column.flex-sm-row.justify-content-between p,
+    .d-flex.flex-column.flex-sm-row.justify-content-between ul {
+        margin-bottom: 10px; /* Add spacing between copyright and icons */
+    }
+
+    #footer img {
+        max-width: 100px; /* Further reduce logo size for very small screens */
+    }
+
+    .nav-item a {
+        font-size: 0.8rem; /* Further reduce font size for better readability */
+    }
+
+    #footer a svg {
+        font-size: 18px; /* Adjust icon size for very small screens */
+    }
+
+    .d-flex.flex-column.flex-sm-row.justify-content-between ul {
+        justify-content: center; /* Center the icons */
+    }
+
+    .d-flex.flex-column.flex-sm-row.justify-content-between p {
+        text-align: center; /* Center-align copyright text */
+        margin-bottom: 15px; /* Add more spacing between elements */
+    }
+}
+
+
+
+

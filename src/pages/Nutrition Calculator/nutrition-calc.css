@@ -1,0 +1,156 @@
+.nutrition-calc {
+  text-align: center;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #212429;
+}
+
+.nutrition-calc h1{
+  color: #fff;
+}
+
+.calculator-container {
+  display: flex;
+  flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 20px; /* Adjusted padding for smaller screens */
+}
+
+.input-container {
+  flex: 1;
+  max-width: 100%;
+  margin-bottom: 20px; /* Added margin for spacing */
+}
+
+.input-group {
+  margin: 15px 0;
+  text-align: left;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 18px; /* Increased font size for better readability */
+  color: #ccc;
+}
+
+.input-group input {
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  font-size: 16px; /* Increased font size for better readability */
+  background-color: #303338;
+  border-color: #9c9b9b;
+  color: #dadada;
+}
+
+button {
+  padding: 10px 20px; /* Adjusted padding for smaller screens */
+  background-color: #fa7c05;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #00000000;
+}
+
+.result-container {
+  flex: 1;
+  max-width: 100%; /* Adjusted max-width for smaller screens */
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  background-color: #333;
+}
+
+.result {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #444;
+  color: #fff;
+}
+
+.result h2 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.result p {
+  font-size: 20px;
+  color: #fa7c05;
+}
+
+/* Media Queries for Tablets and Smartphones */
+@media (max-width: 768px) and (min-width: 480px) {
+
+  .input-group {
+    max-width: 300px;
+    padding: 0px !important;
+    margin-left: 29%;
+  }
+
+  .input-group label {
+    font-size: 14px; /* Further adjust label font size for very small screens */
+  }
+
+  .input-group input {
+    font-size: 12px; /* Further adjust input font size for very small screens */
+    width: 300px;
+  }
+
+  .result h2 {
+    font-size: 24px; /* Adjust heading font size for very small screens */
+  }
+
+  .result p {
+    font-size: 16px; /* Adjust paragraph font size for very small screens */
+  }
+
+  button {
+    padding: 10px 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .input-group {
+    max-width: 300px;
+    padding: 0px !important;
+    margin-left: 10%;
+  }
+
+  .input-group label {
+    font-size: 14px; /* Further adjust label font size for very small screens */
+  }
+
+  .input-group input {
+    font-size: 12px; /* Further adjust input font size for very small screens */
+    width: 300px;
+  }
+
+  .result h2 {
+    font-size: 24px; /* Adjust heading font size for very small screens */
+  }
+
+  .result p {
+    font-size: 16px; /* Adjust paragraph font size for very small screens */
+  }
+
+  button {
+    padding: 10px 40px;
+  }
+}
+
+
+  
+  
+  

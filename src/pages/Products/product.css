@@ -1,0 +1,383 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #444444;
+  overflow-x: hidden;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section-products {
+  padding: 80px 0 54px;
+}
+
+.section-products .header {
+  margin-bottom: 50px;
+}
+
+.section-products .header h3 {
+  font-size: 1rem;
+  color: #fe302f;
+  font-weight: 500;
+}
+
+.section-products .header h2 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #444444;
+}
+
+.section-products .single-product {
+  margin-bottom: 26px;
+  border-radius: 4px;
+  box-shadow: 5px 5px 8px 4px rgba(0, 0, 0, 0.438);
+  background-color: #9666662a;
+}
+
+.section-products .single-product .part-1 {
+  position: relative;
+  height: 290px;
+  max-height: 290px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.section-products .single-product .part-1::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.3s;
+}
+
+.section-products .single-product:hover .part-1::before {
+  transform: scale(1.2, 1.2);
+}
+
+.section-products #product-1 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/ZULU-Swift-32-Fluid-Ounce-Stainless-Steel-Vacuum-Insulated-Water-Bottle-with-Silicone-Straw-Black_63f83d48-af1b-46e0-9c24-98e5b6c02d99.f9ef5ef568bbcbdeb1f09635ebd72df7.png?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+  transition: all 0.3s;
+}
+
+.section-products #product-2 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Athletic-Works-Two-Tone-Fitness-Mat-10mm-72inx24in-Blue-Color-NBR-Foam-with-Carry-Strap_ee3b0b73-5739-4acc-b21d-e3f85fcd9206.3b88cafab7629f548611933a0ab68e40.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-3 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/ProForm-Carbon-TL-Treadmill-for-Walking-and-Running-with-5-Display-Built-In-Tablet-Holder-and-SpaceSaver-Design_e19c7007-c3cb-4917-84cd-79e592f0fea1.3fcf2b03485364b934df0f0c0ede40fa.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-4 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Gaiam-Loop-Band-Kit-Includes-Light-Medium-and-Heavy-Resistance-Levels-3-Pk_291e2972-4f33-476b-be3c-a9f1cfe16b09.42742364a546f9400ce6653f173fa0b3.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-5 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Everlast-Pro-Hand-Wraps-180-In-Red_b740493c-db52-4e10-998f-2c073e3f9d22.a4295c3c47937a1b839148637287373f.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-6 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/CAP-15lb-Neoprene-Dumbbell-Cool-Gray-Single_1ecd1077-6dec-4d8d-a6b1-91b1bd7eb548.db60e63bda7a461a0966368db80d3a1e.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-7 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Titan-Fitness-8-KG-Competition-Kettlebell-Single-Piece-Casting-KG-Markings-Full-Body-Workout_84378077-a432-44a1-a1d9-6a13d35df1c1.fea56e1526348d043c778489c6dd50b4.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-8 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Everlast-Deluxe-Speed-Jump-Rope-9-Ft-Black_40976482-b045-464f-b317-84738b61b464.a988a03aec0d7916f019e95a951e4018.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-9 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Philosophy-Gym-Toning-Ball-8-LB-Blue-Soft-Weighted-Mini-Medicine-Ball_909def7b-f6d3-45f8-a74b-d6303a740e03.78e1b1232b81ecdaaebedef6700fdd6c.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-10 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/BalanceFrom-Set-of-2-High-Density-Yoga-Blocks-9-x6-x4-Each_531e4847-0486-4363-a93d-2c25d4aa738a_2.226bbb77ba5b343e37af9fb951a2eefa.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-11 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Fuel-Pureformance-Adjustable-FID-Weight-Bench-500-lb-Capacity_45b9754b-aad7-41d1-bc28-f85023c870d1_1.2f26830ddb929653d21b47a9b33bded7.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-12 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Doorway-Pull-Up-Bar-Adjustable-Extendable-39-Chin-Comfortable-Grip-Foam-Exercise-Fitness-Pull-up-Support-Fits-Standard-Red-Black_864b7e7e-773d-4109-b6b7-727bc776c4b2.d056fd6c0727f62c77f404d93bd55980.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-13 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Wall-Mounted-Pull-Up-Bar-Dip-Station-Heavy-Duty-Mount-Pull-up-Chin-Multifunctional-Home-Gym-Workout-Indoor-Exercise-Equipment-Max-Capactiy-440-LBS_66aa5892-b47c-4d43-aee5-5c3ebca8c987.ba9377b14c3cff5543142a9a3f6c1895.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-14 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Adjustable-Dumbbell-22lb-44lb-52lb-Single-Dumbbell-Set-with-Tray-for-Workout-Strength-Training-Fitness_e780407f-5a99-40c9-b383-92f2a8a7e1ae.f08c5cd045d2082232636deb8a2eda1a.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-15 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Evolve-by-Gaiam-Fit-Yoga-Mat-6mm_a4b4028f-dbe0-4c7c-9a4e-567d9768c98f.8a59e49029d0175a7c492af51aeded0e.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-16 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/PRCTZ-40lb-Adjustable-Dumbbell-Set-Chrome-Black_7585dcef-7410-467c-a077-0590ab45eb6e.4ff319ddfb0ca326f6789532700776c7.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-17 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Pooboo-Body-Champ-Multifunction-Power-Tower-Dip-Station-Pull-up-Bar-Power-Rack-for-Home-Gym-Strength-Training-Workout-Equipment-Max-Weight-480lbs_b93719ed-3828-49a6-bb99-df3b97f9c8dd.8d1efc1d9bc2cf60f777e8c048f4afb1.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-18 .part-1::before {
+  background: url("https://media.4rgos.it/i/Argos/8803498_R_Z003A?w=1500&h=880&qlt=70&fmt=webp")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-19 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/POPSUGAR-3-in-1-Resistance-Tube-Kit-with-Interchangeable-Tubes-Light-Medium-and-Heavy-Strengths-Blue-Purple_ee73d6ce-7fa1-4eec-9769-117911276efb.f790c79ca69ca9768a9d1eede6d75e96.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-20 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Everyday-Essentials-Home-Gym-Exercise-Equipment-Bench-Strength-Workout-Station_d1bf94dd-883c-4bf8-b60c-fc0d1904fe92.dcc6502a2ae51fcaba8647644564bf92.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-21 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/KETTLEBELL-KINGS-Competition-Kettlebell-Weights-for-Workout-26-lbs_6e57f0cc-4acb-454c-a53a-0f4822dcd21c.56918979207d037bd4c4ec2633bd4669.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-22 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/EastVita-Folding-Treadmill-0-6-8-7MPH-4-0Hp-400LBS-Portable-Treadmill-14-5-LED-Display-Pulse-Detection-Home-Office-Apartment-Exercise_79941b29-872a-461e-9a91-6d0bee748b4f.d003c216837b16dc4660579ab64e5ad2.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-23 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Deep-Tissue-foam-Roller_a8b007e1-8d3e-4489-b06c-c3606214361c.e3eb63a5ab2971fabc5d599cb9f75d36.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-24 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Adjustable-Heavy-Duty-Weight-Bench-Press-Flat-Incline-Machine-11-Positions-Intense-Chest-Arm-Workouts-Supports-Up-2000-LB-Home-Gym-Equipment_f05b0c02-0795-4163-8330-99414b660f64.323deced0564433ac2073b333b3e8cb1.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-25 .part-1::before {
+  background: url("https://i5.walmartimages.com/asr/36b08398-4127-4441-bd24-d3431c310821.2bd7457ddd3c74609f86ffe66c7a2c8e.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-26 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/ProsourceFit-Tri-Fold-Folding-Exercise-Mat-6x2-in-Blue_47375402-d354-490a-a296-849f0afba448.b1c4ba4b6917035a7c9a9482d7036e93.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-27 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/DMI-Compact-Hand-Exercise-Grip-Strengtheners-Adjustable-Weight-Resistance-10-130lbs-Tracker-keeps-Track-Number-Squeezes-FSA-HSA-Eligible-Set-2_fe444fcd-2f93-45a8-b72e-0134b1e10fe2.b5ec60c44be6939bf7c2b7c76fe9bf9e.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-28 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/ZHUYING-Jump-Rope-Tangle-Free-Rapid-Speed-Jumping-Rope-Cable-Ball-Bearings-Women-Men-Kids-Adjustable-Steel-Workout-Foam-Handles-Fitness-Home-Exercise_9e7bec53-a001-40bb-9ec4-aef061dea07a.f10932a8de88b00eee0367ea234c73ac.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-29 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Marcy-Cardio-Mini-Cycle-Exercise-Bike-NS-912_05e5afee-45ae-4b12-afba-4f76f97096c1.1f1975dad57bc7e63c359041570d1efd.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-30 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Sunny-Health-Fitness-Elite-Wooden-Water-Rowing-Machine-Vertical-Tank-For-Unlimited-Resistant-Sustainable-Rubberwood-Exclusive-SunnyFit-App-Bluetooth_c760815e-2e80-4462-bc7d-e9ccce370a61.42cfc0ebc9012ab5b2552e8a5d0c26f7.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-31 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Reebok-15lb-Textured-Medicine-Exercise-Ball-Rubber_4ba26808-2415-4372-9539-00a458847946.409dcbfbffff0d73070b23c3b7f2f5e7.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-32 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Reebok-Adjustable-Exercise-Step-Platform-Home-Gym-Workout-Equipment-White-Blue_6a5b8474-c3f2-4055-8c55-45e8a10a020a.de06c71257be3e0ef20a0759ad6e1b8f.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-33 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Squat-Rack-Stand-Adjustable-Bench-Press-Rack-Barbell-Rack-Stand-Multi-Function-Weight-Lifting-Rack-for-Home-Gym-Strength-Trainingred_9304e999-a94a-406f-a0d2-56b013343a8d.be06fa6572de9acdc053916ab8dc05bd.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-34 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/1-5-Diameter-100-Poly-Dacron-40-FT-Length-Exercise-Equipment-Home-Gym-Strength-Training-Cardio-Workout-Fitness-L8_e31b7998-24d9-4904-b82e-a15709ae4b54.e5df127916155986e4476f2892ec99b0.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-35 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/PRISP-Dumbbells-Set-with-Rack-3-Pairs-of-Neoprene-Free-Weights-with-Stand_d8a80520-9102-422b-bf21-69317e7461d8.2061af361298a40c59773b651dd42cb7.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-36 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Elliptical-Machine-Neche-Magnetic-Elliptical-Trainer-Fitness-Equipment-for-Home-Gym-Cardio-Workout-265lb_df2b74d0-5e3b-4c17-b4dd-d90895b8b4d6.08c5254e2cf1563414fadac1bc762be6.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products .single-product .part-1 .discount,
+.section-products .single-product .part-1 .new {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: #ffffff;
+  background-color: #fe302f;
+  padding: 2px 8px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.section-products .single-product .part-1 .new {
+  left: 0;
+  background-color: #444444;
+}
+
+.section-products .single-product .part-1 ul {
+  position: absolute;
+  bottom: -41px;
+  left: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  opacity: 0;
+  transition: bottom 0.5s, opacity 0.5s;
+}
+
+.section-products .single-product:hover .part-1 ul {
+  bottom: 30px;
+  opacity: 1;
+}
+
+.section-products .single-product .part-1 ul li {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.section-products .single-product .part-1 ul li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #21242959;
+  color: #ffffff;
+  text-align: center;
+  padding: 7px;
+  display: flex;
+  box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+  transition: color 0.6s;
+  border-radius: 5px;
+}
+
+.section-products .single-product .part-1 ul li a:hover {
+  color: #fe302f;
+}
+
+.section-products .single-product .part-2 {
+  padding-left: 15px;
+}
+
+.section-products .single-product .part-2 .product-title {
+  font-size: 1rem;
+}
+
+.section-products .single-product .part-2 h4 {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.section-products .single-product .part-2 .product-old-price {
+  position: relative;
+  padding: 0 7px;
+  margin-right: 2px;
+  opacity: 0.6;
+}
+
+.section-products .single-product .part-2 .product-old-price::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #444444;
+  transform: translateY(-50%);
+}
+
+.sort-dropdown {
+  display: flex;
+  align-items: center;
+  padding: 0 0 30px 0 ;
+  
+}
+
+.form-select {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-left: 20px;
+  font-size: 16px;
+  width: 140px !important;
+}

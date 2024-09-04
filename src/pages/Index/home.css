@@ -1,0 +1,456 @@
+body {
+  overflow-x: hidden !important;
+}
+
+.slider img {
+  width: 100%;
+  position: relative;
+  top: 0px;
+  transform: scaleX(-1.1);
+  background: linear-gradient(to bottom,  rgba(138, 138, 138, 0.555), #212429), url(./img/3d-gym-equipment.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 550px;
+}
+
+.center-text {
+  position: absolute;
+  top: 270px;
+  left: 40%;
+  transform: translate(-35%);
+  z-index: 1;
+  color: #ffffff;
+  text-align: center;
+  
+}
+
+.center-text h2 {
+  font-size: 45px;
+  padding-bottom: 10px;
+  text-shadow:2px 2px 8px rgba(0, 0, 0, 0.7);
+  text-transform: uppercase;
+}
+
+.center-text h6 {
+  padding: 0 180px;
+  font-size: 25px;
+  font-weight: 200;
+  padding-bottom: 40px;
+  text-shadow:2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.center-text button {
+  font-size: 18px;
+  padding: 8px 45px;
+  box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);
+}
+
+
+.category-list {
+  border: 1px solid #e5e8ec;
+}
+
+.category-list ul li {
+  padding: 15px;
+  border-bottom: 1px solid #e5e8ec;
+}
+
+.category-list ul li:last-child {
+  border-bottom: none;
+}
+
+.category-list ul li a {
+  text-decoration: none;
+  color: #021523;
+  font-size: 14px;
+}
+
+#features {
+  background-color: #212429;
+  width: 100%;
+  height: auto;
+  color: white;
+}
+
+#features svg {
+  width: 100px;
+  height: 70px;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #444444;
+  overflow-x: hidden;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section-products {
+  padding: 80px 0 54px;
+}
+
+.section-products .header {
+  margin-bottom: 50px;
+}
+
+.section-products .header h3 {
+  font-size: 1rem;
+  color: #fe302f;
+  font-weight: 500;
+}
+
+.section-products .header h2 {
+  font-size: 2.2rem;
+  font-weight: 400;
+  color: #444444;
+}
+
+.section-products .single-product {
+  margin-bottom: 26px;
+}
+
+.section-products .single-product .part-1 {
+  position: relative;
+  height: 290px;
+  max-height: 290px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+.section-products .single-product .part-1::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  transition: all 0.3s;
+}
+
+.section-products .single-product:hover .part-1::before {
+  transform: scale(1.2, 1.2);
+}
+
+.section-products #product-1 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/ZULU-Swift-32-Fluid-Ounce-Stainless-Steel-Vacuum-Insulated-Water-Bottle-with-Silicone-Straw-Black_63f83d48-af1b-46e0-9c24-98e5b6c02d99.f9ef5ef568bbcbdeb1f09635ebd72df7.png?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+  transition: all 0.3s;
+}
+
+.section-products #product-2 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Athletic-Works-Two-Tone-Fitness-Mat-10mm-72inx24in-Blue-Color-NBR-Foam-with-Carry-Strap_ee3b0b73-5739-4acc-b21d-e3f85fcd9206.3b88cafab7629f548611933a0ab68e40.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-3 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/ProForm-Carbon-TL-Treadmill-for-Walking-and-Running-with-5-Display-Built-In-Tablet-Holder-and-SpaceSaver-Design_e19c7007-c3cb-4917-84cd-79e592f0fea1.3fcf2b03485364b934df0f0c0ede40fa.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-4 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Gaiam-Loop-Band-Kit-Includes-Light-Medium-and-Heavy-Resistance-Levels-3-Pk_291e2972-4f33-476b-be3c-a9f1cfe16b09.42742364a546f9400ce6653f173fa0b3.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-5 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Everlast-Pro-Hand-Wraps-180-In-Red_b740493c-db52-4e10-998f-2c073e3f9d22.a4295c3c47937a1b839148637287373f.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-6 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/CAP-15lb-Neoprene-Dumbbell-Cool-Gray-Single_1ecd1077-6dec-4d8d-a6b1-91b1bd7eb548.db60e63bda7a461a0966368db80d3a1e.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-7 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Titan-Fitness-8-KG-Competition-Kettlebell-Single-Piece-Casting-KG-Markings-Full-Body-Workout_84378077-a432-44a1-a1d9-6a13d35df1c1.fea56e1526348d043c778489c6dd50b4.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products #product-8 .part-1::before {
+  background: url("https://i5.walmartimages.com/seo/Everlast-Deluxe-Speed-Jump-Rope-9-Ft-Black_40976482-b045-464f-b317-84738b61b464.a988a03aec0d7916f019e95a951e4018.jpeg?odnHeight=2000&odnWidth=2000&odnBg=FFFFFF")
+    no-repeat center;
+  background-size: cover;
+}
+
+.section-products .single-product .part-1 .discount,
+.section-products .single-product .part-1 .new {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  color: #ffffff;
+  background-color: #fe302f;
+  padding: 2px 8px;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.section-products .single-product .part-1 .new {
+  left: 0;
+  background-color: #444444;
+}
+
+.section-products .single-product .part-1 ul {
+  position: absolute;
+  bottom: -41px;
+  left: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  opacity: 0;
+  transition: bottom 0.5s, opacity 0.5s;
+}
+
+.section-products .single-product:hover .part-1 ul {
+  bottom: 30px;
+  opacity: 1;
+}
+
+.section-products .single-product .part-1 ul li {
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.section-products .single-product .part-1 ul li a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  background-color: #ffffff;
+  color: #444444;
+  text-align: center;
+  box-shadow: 0 2px 20px rgb(50 50 50 / 10%);
+  transition: color 0.2s;
+}
+
+.section-products .single-product .part-1 ul li a:hover {
+  color: #fe302f;
+}
+
+.section-products .single-product .part-2 .product-title {
+  font-size: 1rem;
+}
+
+.section-products .single-product .part-2 h4 {
+  display: inline-block;
+  font-size: 1rem;
+}
+
+.section-products .single-product .part-2 .product-old-price {
+  position: relative;
+  padding: 0 7px;
+  margin-right: 2px;
+  opacity: 0.6;
+}
+
+.section-products .single-product .part-2 .product-old-price::after {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #444444;
+  transform: translateY(-50%);
+}
+
+@media (max-width: 768px) and (min-width: 480px) {
+
+  html {
+    overflow-x: hidden;
+  }
+
+  .slider img {
+    width: 100%;
+    height: 280px;
+  }
+
+  #features {
+    padding: 50px;
+  }
+
+  .center-text {
+    position: absolute;
+    top: 285px;
+    left: 27%;
+    transform: translateX(-13%);
+    z-index: 1;
+    color: #ffffff;
+    text-align: center;
+    
+  }
+  
+  .center-text h2 {
+    font-size: 22px;
+    padding-bottom: 0;
+    text-shadow:2px 2px 8px rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+  }
+  
+  .center-text h6 {
+    padding: 0 50px;
+    font-size: 12px;
+    font-weight: 200;
+    padding-bottom: 22px;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 1);
+  }
+  
+  .center-text button {
+    box-shadow: 5px 2px 20px 0px rgba(0,0,0,0.75);
+    font-size: 15px;
+    width: 50%;
+    padding: 5px 0;
+  }
+
+}
+
+@media (max-width: 480px) {
+  html {
+    overflow-x: hidden;
+  }
+  
+  .slider img {
+    width: 100%;
+    height: 280px;
+  }
+
+  .center-text {
+    position: absolute;
+    top: 270px;
+    left: 19%;
+    transform: translateX(-13%);
+    z-index: 1;
+    color: #ffffff;
+    text-align: center;
+    
+  }
+  
+  .center-text h2 {
+    font-size: 22px;
+    padding-bottom: 0;
+    text-shadow:2px 2px 8px rgba(0, 0, 0, 0.7);
+    text-transform: uppercase;
+  }
+  
+  .center-text h6 {
+    padding: 0 50px;
+    font-size: 12px;
+    font-weight: 200;
+    padding-bottom: 22px;
+    text-shadow:2px 2px 4px rgba(0, 0, 0, 1);
+  }
+  
+  .center-text button {
+    box-shadow: 5px 2px 20px 0px rgba(0,0,0,0.75);
+    font-size: 15px;
+    width: 50%;
+    padding: 5px 0;
+  }
+
+}
+
+#pricing {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 100%;
+  height: auto;
+  color: #212429;
+}
+
+#pricing .card {
+  background-color: rgb(245, 249, 252);
+}
+
+#pricing .last-card {
+  border: 1px solid #fa7c05 !important;
+}
+
+#pricing .last-card-header {
+  background-color: #fa7c05 !important;
+}
+
+#pricing .btn-outline-warning {
+  color: #fa7c05;
+  background-color: #ffffff !important;
+  border: 1px solid #fa7c05 !important;
+}
+
+#pricing .btn-outline-warning:hover {
+  color: #ffffff;
+  background-color: #fa7c05 !important;
+}
+
+#pricing .btn-warning {
+  color: #ffffff;
+  background-color: #fa7c05;
+}
+
+#pricing .btn-warning:hover {
+  color: #ffffff;
+  background-color: #ff9939;
+}
+
+#contact-form {
+  background-color: #212429;
+  color: white;
+}
+
+#contact-form .btn {
+  background-color: #ff9939;
+  color: white;
+}
+
+#contact-form .btn:hover {
+  background-color: #ff993900;
+  color: #ff9939;
+  border: 1px solid #ff9939;
+}
+
+#contact-form iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  margin-top: 30px;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #212429;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background-color: #444444;
+  border-radius: 10px;
+  border: 1px solid none;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  border: 1px solid #ff9939;
+}
+
+.scrollable-element {
+  -webkit-overflow-scrolling: touch !important;
+} 
+

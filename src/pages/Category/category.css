@@ -1,0 +1,9 @@
+.category-top {
+    border-bottom: 1px solid #e5e8ec;
+    padding-bottom: 20px;
+}
+
+.category-top select{ 
+    width: 10%;
+    font-size: 14px;
+}

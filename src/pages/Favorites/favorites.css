@@ -1,0 +1,53 @@
+/* favorites.css */
+.favorites-button {
+    background-color: #ff4d4d; /* A red color for favorites */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .favorites-button:hover {
+    background-color: #e60000; /* Darker red shade */
+  }
+  
+  .favorites-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .favorites-item img {
+    max-width: 50px;
+    max-height: 50px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .favorites-item-details {
+    flex: 1;
+    margin-left: 10px;
+  }
+  
+  .favorites-item-title {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .favorites-item-price {
+    color: #555;
+  }
+  
+  .favorites-list {
+    margin-top: 20px;
+  }
+  
+  .favorites-empty {
+    font-size: 18px;
+    color: #888;
+  }
+  
